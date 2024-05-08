@@ -46,6 +46,5 @@ if [ $? -ne 0 ]; then
     error "Failed to create the distribution."
 else
     success "Distribution created successfully."
+    header "Build Process Complete"
 fi
-
-header "Build Process Complete"
