@@ -20,15 +20,6 @@ success() {
     echo -e "${GREEN}$1${NC}"
 }
 
-header "Cloning the memops-miyoo-benchmark Repository"
-git clone https://github.com/XK9274/memops-miyoo-benchmark.git
-if [ $? -ne 0 ]; then
-    error "Failed to clone the repository."
-    exit 1
-else
-    success "Successfully cloned the repository."
-fi
-
 cd memops-miyoo-benchmark || {
     error "Could not change to the cloned directory."
     exit 1
