@@ -17,6 +17,8 @@ cd memops-miyoo-benchmark
 ./build.sh
 ```
 
+Files will drop into the `dist` dir
+
 # Example:
 
 ```
